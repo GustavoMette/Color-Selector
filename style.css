@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    margin: 18%;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 6px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+
+.azul {
+    background-color: blue;
+    transition: all 0.25s ease-in-out;
+}
+
+.vermelho {
+    background-color: rgb(255, 0, 0);
+    transition: all 0.25s ease-in-out;
+}
+
+.verde {
+    background-color: rgb(9, 255, 0);
+    transition: all 0.25s ease-in-out;
+}
+
+.amarelo {
+
+    background-color: rgb(251, 255, 0);
+    transition: all 0.25s ease-in-out;
+}
+
+.laranja {
+    background-color: rgb(255, 136, 0);
+    transition: all 0.25s ease-in-out;
+}
+
+.roxo {
+    background-color: rgb(127, 0, 177);
+    transition: all 0.25s ease-in-out;
+}
+
+.rosa {
+    background-color: rgb(183, 0, 255);
+    transition: all 0.25s ease-in-out;
+}
+
+.azul:hover {
+    padding: 9px;
+}
+
+.vermelho:hover {
+    padding: 9px;
+}
+
+.verde:hover {
+    padding: 9px;
+}
+
+.amarelo:hover {
+    padding: 9px;
+}
+
+.laranja:hover {
+    padding: 9px;
+}
+
+.roxo:hover {
+    padding: 9px;
+}
+.rosa:hover {
+    padding: 9px;
+}
